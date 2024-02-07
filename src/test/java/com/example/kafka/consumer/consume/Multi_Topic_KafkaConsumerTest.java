@@ -1,4 +1,4 @@
-package com.example.kafka.consumer;
+package com.example.kafka.consumer.consume;
 
 import static com.example.kafka.support.assertions.KafkaAssertions.*;
 import static com.example.kafka.support.helper.KafkaConsumerTestHelper.*;
