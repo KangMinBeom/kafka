@@ -1,4 +1,4 @@
-package com.example.kafka.consumer.consumer_group.partition_group;
+package com.example.kafka.consumer.consumer_group.partition;
 
 import static com.example.kafka.support.helper.ConsumerRecordsHelper.*;
 import static com.example.kafka.support.helper.KafkaConsumerTestHelper.*;
@@ -10,7 +10,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
